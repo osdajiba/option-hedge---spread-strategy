@@ -33,7 +33,7 @@ This project aims to provide tools for analyzing and constructing derivative spr
   
    **you can go to file 'bin' , and then click 'launch.bat' to launch the program, or using IDE like PyCharm or vscode to run './bin/main.py'*
   
-4. Finally，if you want the stastically result, please run the notebook file : 'bin/result.ipynb'
+4. Finally，if you want the statically result, please run the notebook file : 'bin/result.ipynb'
 
 ## License
 
