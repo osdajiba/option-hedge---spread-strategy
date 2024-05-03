@@ -34,7 +34,7 @@ This project aims to provide tools for analyzing and constructing derivative spr
    **you can go to file `bin` , and then click 'launch.bat' to launch the program, or using IDE like PyCharm or vscode to run `./bin/main.py`*
   
 4. Finally，if you want the statical result, please run the notebook file : `bin/result.ipynb`, it will generate file  `db/result` which is largher than 1GB.
-    **Running `bin/result.ipynb` will calling 16 processes! Please check out if your computer's cores and logical processors is avliable.*
+**Before running `bin/result.ipynb` will calling 16 processes! Please check out if your computer's cores and logical processors is avliable.*
 
 ## License
 
