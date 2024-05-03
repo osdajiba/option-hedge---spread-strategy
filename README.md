@@ -20,10 +20,9 @@ This project aims to provide tools for analyzing and constructing derivative spr
 
 ## Usage
 
-1. Modify the configurations in `conf/config.json` according to your data file paths.
-  
-2. check if you have the files `db/available_data_path`, `db/datasets`.
-   if you not have these files, please run the notebook file first: `db/data_engine.ipynb`
+1. Modify the configurations in `conf/config.json` according to your data file paths.  
+
+2. <font color=blue>Check if you have the files `db/available_data_path` and `db/datasets`. If you do NOT have these files, please run the notebook file first: `db/data_engine.ipynb`</font>  
   
 3. Run the main script if using windows cmd:
   
@@ -31,10 +30,11 @@ This project aims to provide tools for analyzing and constructing derivative spr
    ./bin/launch.bat
    ```
   
-   **you can go to file `bin` , and then click 'launch.bat' to launch the program, or using IDE like PyCharm or vscode to run `./bin/main.py`*
+   **you can go to file `bin` , and then click `launch.bat` to launch the program, or using IDE like PyCharm or vscode to run `./bin/main.py`*
   
-4. Finally，if you want the statical result, please run the notebook file : `bin/result.ipynb`, it will generate file  `db/result` which is largher than 1GB.
-**Before running `bin/result.ipynb` will calling 16 processes! Please check out if your computer's cores and logical processors is avliable.*
+4. Finally，if you want the statical result, please run the notebook file : `bin/result.ipynb`, <font color=blue>which will generate file  `db/result` which is larger than 1GB</font>.
+  
+*<font color=red>*Running `bin/result.ipynb` will calling default processors = 16 ! Please check out if your computer's cores and logical processors are available before you run the program.*</font>
 
 ## License
 
