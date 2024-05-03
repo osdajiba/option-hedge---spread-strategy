@@ -1,0 +1,11 @@
+{
+    "sample_data": "db/sample.csv",
+    "data_path": "db/2021-2024.3",
+    "datasets": "db/datasets",
+    "underlying": "db/akdata",
+    "underlying_index": {
+        "IO": "\u6caa\u6df1300",
+        "MO": "\u4e2d\u8bc11000",
+        "HO": "\u4e0a\u8bc150"
+    }
+}
